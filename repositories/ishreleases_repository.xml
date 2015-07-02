@@ -1,0 +1,12 @@
+<repository>
+  <data>
+    <id>ishreleases</id>
+    <name>Intershop Releases</name>
+    <exposed>true</exposed>
+    <repoType>hosted</repoType>
+    <repoPolicy>RELEASE</repoPolicy>
+    <providerRole>org.sonatype.nexus.proxy.repository.Repository</providerRole>
+    <provider>maven2</provider>
+    <format>maven2</format>
+  </data>
+</repository>

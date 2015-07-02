@@ -1,0 +1,22 @@
+<repo-group>
+  <data>
+    <repositories>
+      <repo-group-member>
+        <id>ishreleases</id>
+      </repo-group-member>
+      <repo-group-member>
+        <id>gradle</id>
+      </repo-group-member>
+      <repo-group-member>
+        <id>releases</id>
+      </repo-group-member>
+    </repositories>
+    <name>Components</name>
+    <repoType>group</repoType>
+    <providerRole>org.sonatype.nexus.proxy.repository.GroupRepository</providerRole>
+    <exposed>true</exposed>
+    <id>components</id>
+    <provider>maven2</provider>
+    <format>maven2</format>
+  </data>
+</repo-group>
