@@ -24,7 +24,7 @@
     
     type: <code>Proxy</code>
     
-    Remote Url: <code>https://repo.intershop.de/content/repositories/&lt;contract-id&gt;</code>
+    Remote Url: <code>https://repo.intershop.de/content/repositories/contract-id</code>
     
     If you need additional remote repositories, all these repositories should be configured in one group.
     
