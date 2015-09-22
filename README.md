@@ -2,7 +2,7 @@
 
 * CentOS 7
 
-### Installation and configuration automatically
+### Install and configure automatically
 
 * Install Nexus
 
@@ -12,7 +12,7 @@
 
 > <code>./nexus_configure.sh</code>
     
-### Final configuration manually
+### Finalize configuration manually
 
 * Set the following access settings for the repositories <code>'ishreleases'</code>, <code>'gradle'</code> and <code>'distributions'</code>: 'Allow File Browsing' and 'Include in Search' to TRUE.  
 
