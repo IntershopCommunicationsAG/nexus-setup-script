@@ -26,10 +26,20 @@
     
     Remote Url: <code>https://repo.intershop.de/content/repositories/contract-id</code>
     
-    If you need additional remote repositories, all these repositories should be configured in one group.
+    Fill out the Authentication with your credentials.
     
-    This makes it easier to configure this kind of repositories in the Gradle configuration, because all different repositories are usable via one URL.
+    Switch to the tab Routing and make sure Discovery is unchecked.
+        
+* Create the JCenter proxy repository
+ 
+    name: <code>JCenter</code>	
     
-    These repositories provide third party artifacts from public Maven repositories. The repository server needs internet access.
+    id: <code>jcenter</code>
+    
+    type: <code>Proxy</code>
+    
+    Remote Url: <code>https://jcenter.bintray.com/</code>
+    
+* Assign the Intershop proxy repository additionally to the <code>'Components'</code> repository group (order: Intershop, Intershop Releases, Releases, Gradle)
 
-* Assign this Intershop proxy repository additionally to the <code>'Components'</code> repository group.
+* Assign the Intershop and JCenter proxy repositories additionally to the <code>'Maven all'</code> repository group (order: JCenter, Central, Intershop)
