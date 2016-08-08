@@ -1,6 +1,6 @@
 {
     "data": {
-		"discoveryEnabled": "false",
-		"discoveryIntervalHours": "-1"
+		"discoveryEnabled": false,
+		"discoveryIntervalHours": -1
 	}
 }
