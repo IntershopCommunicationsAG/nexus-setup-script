@@ -1,14 +1,17 @@
 ### Preconditions
 
-* CentOS 7
+* CentOS 7 with installed wget
 
 ### Install and configure automatically
 
 * Install Nexus
 
-> <code>./nexus_install.sh</code>
+> Run with root permissions <code>./nexus_install.sh</code>
 
 * Configure Nexus automatically
+..* Adapt <code>repositories/ishrepo_repository.xml</code>
+>> Replace CONTRACTID with your contract id
+>> Replace USERNAME and PASSWORD with the provided settings
 
 > <code>./nexus_configure.sh</code>
     

@@ -1,0 +1,19 @@
+<repository>
+  <data>
+    <id>ishrepo</id>
+    <name>Intershop</name>
+    <exposed>true</exposed>
+    <repoType>proxy</repoType>
+    <repoPolicy>RELEASE</repoPolicy>
+    <providerRole>org.sonatype.nexus.proxy.repository.Repository</providerRole>
+    <provider>maven2</provider>
+    <format>maven2</format>
+    <remoteStorage>
+    	<remoteStorageUrl>https://repo.intershop.de/content/repositories/CONTRACTID</remoteStorageUrl>
+    	<authentication>
+    		<username>USERNAME</username>
+    		<password>PASSWORD</password>
+    	</authentication>
+    </remoteStorage>
+  </data>
+</repository>

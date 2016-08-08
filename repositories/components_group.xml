@@ -2,13 +2,16 @@
   <data>
     <repositories>
       <repo-group-member>
-        <id>ishreleases</id>
+        <id>jcenter</id>
       </repo-group-member>
       <repo-group-member>
         <id>releases</id>
       </repo-group-member>
       <repo-group-member>
-        <id>gradle</id>
+        <id>ishrepo</id>
+      </repo-group-member>
+      <repo-group-member>
+        <id>central</id>
       </repo-group-member>
     </repositories>
     <name>Components</name>

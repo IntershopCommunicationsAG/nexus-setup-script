@@ -1,12 +1,15 @@
 <repository>
   <data>
-    <id>gradle</id>
-    <name>Gradle</name>
+    <id>jcenter</id>
+    <name>JCenter</name>
     <exposed>true</exposed>
-    <repoType>hosted</repoType>
+    <repoType>proxy</repoType>
     <repoPolicy>RELEASE</repoPolicy>
     <providerRole>org.sonatype.nexus.proxy.repository.Repository</providerRole>
     <provider>maven2</provider>
     <format>maven2</format>
+    <remoteStorage>
+    	<remoteStorageUrl>https://jcenter.bintray.com/</remoteStorageUrl>
+    </remoteStorage>
   </data>
 </repository>
