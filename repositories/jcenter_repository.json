@@ -1,0 +1,42 @@
+<repository>
+  <data>
+    <id>jcenter</id>
+    <name>JCenter</name>
+    <exposed>true</exposed>
+    <repoType>proxy</repoType>
+    <repoPolicy>RELEASE</repoPolicy>
+    <providerRole>org.sonatype.nexus.proxy.repository.Repository</providerRole>
+    <provider>maven2</provider>
+    <format>maven2</format>
+    <remoteStorage>
+    	<remoteStorageUrl>https://jcenter.bintray.com/</remoteStorageUrl>
+    </remoteStorage>
+  </data>
+</repository>
+
+{
+    "data": {
+        "repoType": "proxy",
+        "id": "jcenter",
+        "name": "JCenter",
+        "browseable": true,
+        "indexable": true,
+        "notFoundCacheTTL": 1440,
+        "artifactMaxAge": -1,
+        "metadataMaxAge": 1440,
+        "itemMaxAge": 1440,
+        "repoPolicy": "RELEASE",
+        "provider": "maven2",
+        "providerRole": "org.sonatype.nexus.proxy.repository.Repository",
+        "downloadRemoteIndexes": true,
+        "autoBlockActive": true,
+        "fileTypeValidation": true,
+        "exposed": true,
+        "checksumPolicy": "WARN",
+        "remoteStorage": {
+            "remoteStorageUrl": "https://jcenter.bintray.com/",
+            "authentication": null,
+            "connectionSettings": null
+        }
+    }
+}
