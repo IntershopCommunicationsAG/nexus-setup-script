@@ -9,10 +9,10 @@
 > Run with root permissions <code>./nexus_install.sh</code>
 
 * Configure Nexus automatically
-..* Adapt <code>repositories/ishrepo_repository.xml</code>
->> Replace CONTRACTID with your contract id
->> Replace USERNAME and PASSWORD with the provided settings
-
+ * Adapt <code>repositories/ishrepo_repository.xml</code>  
+Replace CONTRACTID with your contract id   
+Replace USERNAME and PASSWORD with the provided settings
+ * Run
 > <code>./nexus_configure.sh</code>
     
 ### Finalize configuration manually
