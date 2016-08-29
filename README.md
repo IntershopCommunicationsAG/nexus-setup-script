@@ -1,6 +1,7 @@
 ### Preconditions
 
 * CentOS 7
+* Installed JDK 1.8
 
 ### Install and configure automatically
 
