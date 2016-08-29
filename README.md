@@ -1,6 +1,7 @@
 ### Preconditions
 
 * CentOS 7 with installed wget
+* Installed Oracle JDK 1.8
 
 ### Install and configure automatically
 
