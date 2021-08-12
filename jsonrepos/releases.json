@@ -1,0 +1,21 @@
+{
+  "name": "releases",
+  "online": true,
+  "storage": {
+    "blobStoreName": "default",
+    "strictContentTypeValidation": false,
+    "writePolicy": "ALLOW_ONCE"
+  },
+  "cleanup": {
+    "policyNames": [
+    ]
+  },
+  "component": {
+    "proprietaryComponents": true
+  },
+  "maven": {
+    "versionPolicy": "RELEASE",
+    "layoutPolicy": "PERMISSIVE",
+    "contentDisposition": "ATTACHMENT"
+  }
+}

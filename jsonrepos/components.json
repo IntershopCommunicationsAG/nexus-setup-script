@@ -1,0 +1,13 @@
+{
+  "group": {
+    "memberNames": [
+	    "jcenter", "ishrepo", "releases", "snapshots", "central"
+    ]
+  },
+  "name": "components",
+  "online": true,
+  "storage": {
+    "strictContentTypeValidation": true,
+    "blobStoreName": "default"
+  }
+}
