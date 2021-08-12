@@ -12,6 +12,9 @@
 * Configure Nexus automatically
 
 > <code>./nexus_configure.sh</code>
+
+* Alternative: Create respositories in Nexus 3.+
+> <code>./create_repositories.sh</code>
     
 ### Finalize configuration manually
 
