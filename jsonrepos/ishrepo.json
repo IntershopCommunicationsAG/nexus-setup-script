@@ -32,7 +32,7 @@
     "authentication": {
       "type": "username",
       "username": "5654",
-      "password": "APdZUKTrwJ3uEtoQfErfh4eYc4cugUpcfivCebCZo995yRAucYuEHGoXgrz",
+      "password": "**********************************",
       "ntlmHost": "string",
       "ntlmDomain": "string",
       "preemptive": false
