@@ -1,0 +1,47 @@
+{
+  "name": "ishrepo",
+  "online": true,
+  "storage": {
+    "blobStoreName": "default",
+    "strictContentTypeValidation": true
+  },
+  "cleanup": {
+    "policyNames": [
+    ]
+  },
+  "proxy": {
+    "remoteUrl": "https://jcenter.bintray.com",
+    "contentMaxAge": 1440,
+    "metadataMaxAge": 1440
+  },
+  "negativeCache": {
+    "enabled": true,
+    "timeToLive": 1440
+  },
+  "httpClient": {
+    "blocked": false,
+    "autoBlock": true,
+    "connection": {
+      "retries": 0,
+      "userAgentSuffix": "string",
+      "timeout": 60,
+      "enableCircularRedirects": false,
+      "enableCookies": false,
+      "useTrustStore": false
+    },
+    "authentication": {
+      "type": "username",
+      "username": "5654",
+      "password": "APdZUKTrwJ3uEtoQfErfh4eYc4cugUpcfivCebCZo995yRAucYuEHGoXgrz",
+      "ntlmHost": "string",
+      "ntlmDomain": "string",
+      "preemptive": false
+    }
+  },
+  "routingRule": "string",
+  "maven": {
+    "versionPolicy": "RELEASE",
+    "layoutPolicy": "PERMISSIVE",
+    "contentDisposition": "ATTACHMENT"
+  }
+}

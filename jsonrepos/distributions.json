@@ -1,0 +1,21 @@
+{
+  "name": "distributions",
+  "online": true,
+  "storage": {
+    "blobStoreName": "default",
+    "strictContentTypeValidation": false,
+    "writePolicy": "ALLOW"
+  },
+  "cleanup": {
+    "policyNames": [
+    ]
+  },
+  "component": {
+    "proprietaryComponents": true
+  },
+  "maven": {
+    "versionPolicy": "RELEASE",
+    "layoutPolicy": "PERMISSIVE",
+    "contentDisposition": "ATTACHMENT"
+  }
+}
